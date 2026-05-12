@@ -1,0 +1,166 @@
+﻿@page "/projetos"
+
+<div class="container">
+
+    <div class="topo">
+        <span>Projetos</span>
+        <h1>Alguns projetos que desenvolvi</h1>
+    </div>
+
+    <div class="projetos">
+
+        <!-- SISGHA -->
+        <div class="card">
+
+            <img src="imagens/SIGHA.png" alt="SISGHA">
+
+            <div class="conteudo">
+                <h2>SISGHA</h2>
+
+                <p>
+                    Sistema Integrado de Gerenciamento de Horário Acadêmico.
+                    Participei da equipe mobile no desenvolvimento da aplicação.
+                </p>
+            </div>
+
+        </div>
+
+        <!-- SIGEA -->
+        <div class="card">
+
+            <img src="imagens/estagagio.png" alt="SIGEA">
+
+            <div class="conteudo">
+                <h2>SIGEA</h2>
+
+                <p>
+                    Sistema acadêmico voltado para gerenciamento
+                    e acompanhamento de estágios.
+                </p>
+            </div>
+
+        </div>
+
+        <!-- AgroNexis -->
+        <div class="card">
+
+            <img src="imagens/agronexis.png" alt="AgroNexis">
+
+            <div class="conteudo">
+                <h2>AgroNexis</h2>
+
+                <p>
+                    Startup focada em tecnologia, automação
+                    e inovação para o agronegócio.
+                </p>
+            </div>
+
+        </div>
+
+        <!-- Babearia -->
+        <div class="card">
+
+            <img src="imagens/babearia.png" alt="Babearia">
+
+            <div class="conteudo">
+                <h2>Babearia</h2>
+
+                <p>
+                    Aplicativo de agendamento para barbearias
+                    com sistema de pagamentos e reservas.
+                </p>
+            </div>
+
+        </div>
+
+        <!-- Agenda -->
+        <div class="card">
+
+            <img src="imagens/agenda.png" alt="Agenda Flutter">
+
+            <div class="conteudo">
+                <h2>Agenda Flutter</h2>
+
+                <p>
+                    Aplicativo de agenda com Firebase,
+                    notificações e gerenciamento de tarefas.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<style>
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        min-height: 100vh;
+        background: #0b1120;
+        color: white;
+        font-family: Arial;
+        padding: 60px 30px;
+    }
+
+    .topo {
+        margin-bottom: 50px;
+    }
+
+        .topo span {
+            color: #94a3b8;
+            font-size: 14px;
+            letter-spacing: 1px;
+        }
+
+        .topo h1 {
+            margin-top: 10px;
+            font-size: 45px;
+        }
+
+    .projetos {
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+        gap: 25px;
+    }
+
+    .card {
+        background: #111827;
+        border-radius: 18px;
+        overflow: hidden;
+        border: 1px solid #1e293b;
+        transition: 0.2s;
+    }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+
+    .conteudo {
+        padding: 22px;
+    }
+
+        .conteudo h2 {
+            margin-bottom: 12px;
+            font-size: 24px;
+        }
+
+        .conteudo p {
+            color: #cbd5e1;
+            line-height: 1.7;
+            font-size: 16px;
+        }
+
+</style>

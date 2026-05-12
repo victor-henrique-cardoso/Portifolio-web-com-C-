@@ -1,0 +1,109 @@
+﻿@page "/"
+
+<div class="home">
+
+    <div class="conteudo">
+
+        <span class="tag">Portfólio</span>
+
+        <img src="imagens/eu.jpg"
+             alt="Minha Foto"
+             class="foto" />
+
+        <h1>Victor Henrique</h1>
+
+        <p>
+            Desenvolvedor Full Stack apaixonado por tecnologia,
+            design moderno e criação de soluções digitais.
+        </p>
+
+        <div class="links">
+            <a href="/projetos">Projetos</a>
+            <a href="/sobre">Sobre</a>
+            <a href="/contato">Contato</a>
+        </div>
+
+    </div>
+
+</div>
+
+<style>
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .home {
+        min-height: 100vh;
+        background: #0b1120;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        font-family: Arial;
+        color: white;
+    }
+
+    .conteudo {
+        text-align: center;
+        max-width: 700px;
+    }
+
+    .tag {
+        color: #94a3b8;
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+
+    .foto {
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-top: 25px;
+        border: 4px solid #1e293b;
+        box-shadow: 0 0 30px rgba(56,189,248,0.15);
+    }
+
+    h1 {
+        margin-top: 25px;
+        font-size: 60px;
+        font-weight: 700;
+    }
+
+    p {
+        margin-top: 20px;
+        color: #cbd5e1;
+        line-height: 1.8;
+        font-size: 18px;
+        max-width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .links {
+        margin-top: 35px;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+        .links a {
+            text-decoration: none;
+            color: white;
+            padding: 12px 22px;
+            border: 1px solid #1e293b;
+            border-radius: 12px;
+            transition: 0.2s;
+            background: #111827;
+        }
+
+            .links a:hover {
+                background: #1e293b;
+                transform: translateY(-2px);
+            }
+
+</style>
